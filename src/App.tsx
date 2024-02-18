@@ -1,8 +1,11 @@
+import FormularioContacto from "./components/FormularioContacto";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <FormularioContacto />
+    </div>
+  );
+};
 
-export default App
+export default App;
